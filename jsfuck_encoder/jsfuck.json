@@ -21,6 +21,15 @@
     "d": '(undefined+[])[2]',
     "e": '(true+[])[3]',
     "f": '(false+[])[0],
-    "g": '(false+[0]+String)[20]'
+    "g": '(false+[0]+String)[20]',
+    "h": '(+(101))["to"+String["name"]](21)[1]',
+    "i": '(false+[undefined])[10]',
+    "j": undefined,
+    "k": '(+(20))["to"+String["name"]](21)',
+    "l": '(false+[])[2]',
+    "m": '(Number+[])[20]',
+    "n": '(undefined+[])[1]',
+    "o": '(true+[[]["find"]])[10]',
+    "p": '(+(211))["to"+String["name"]](31)[1]'
   }
 }
