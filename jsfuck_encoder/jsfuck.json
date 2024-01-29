@@ -12,5 +12,15 @@
     "Boolean": '(![])',
     "Array": '[]',
     "Function": '[]["find"]'
+  },
+
+  "words":{
+    "a": '(false+[])[1]',
+    "b": undefined,
+    "c": '([]["find"]+[])[3]',
+    "d": '(undefined+[])[2]',
+    "e": '(true+[])[3]',
+    "f": '(false+[])[0],
+    "g": '(false+[0]+String)[20]'
   }
 }
