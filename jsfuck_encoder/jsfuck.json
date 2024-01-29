@@ -1,3 +1,16 @@
 {
-  
+  "defualt": {
+    "true": '!![]',
+    "false": '![]',
+    "undefined": '[][[]]',
+    "NaN": '+[![]]'
+  },
+
+  "constructor":{
+    "String": '([]+[])',
+    "Number": '(+[])',
+    "Boolean": '(![])',
+    "Array": '[]',
+    "Function": '[]["find"]'
+  }
 }
