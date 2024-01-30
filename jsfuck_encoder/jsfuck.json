@@ -15,7 +15,7 @@
       "Boolean": "(![])",
       "Array": "[]",
       "Function": "[]['find']",
-      "RegExp": "Function('return/'+false+'/')"
+      "RegExp": "Function('return/'+![]+'/')"
     },
   
     "words":{
@@ -25,7 +25,7 @@
       "d":   "([][[]]+[])[+!+[]+!+[]]",
       "e":   "(!![]+[])[+!+[]+!+[]+!+[]]",
       "f":   "(![]+[])[+[]]",
-      "g":   "(false+[0]+String)[20]",
+      "g":   "(![]+[+[]]+String)[20]",
       "h":   "(+(101))['to'+String['name']](21)[1]",
       "i":   "([false]+undefined)[10]",
       "j":   null,
