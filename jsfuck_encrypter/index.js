@@ -2,9 +2,9 @@ const jsfuck_data = require("./data.js")
 
 function replaceWords(words){
     return words.split("").map(e=>{
-        if(!isNaN(e) && e != " ") return e
+        if(/\d/.test(e)) return e
         return jsfuck_data.words[e] || "String['fromCharCode']("+e.charCodeAt()+")"
-    }).join("+").replace(/(\d(\+\d)?\+\d)/g, function(x){return x.replace("+", "")});
+    }).join("+").replace(/(\d(\+\d)*\+\d)/g, function(x){return x.replace("+", "")});
 }
 
 module.exports = function(str, isScript){
