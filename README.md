@@ -5,7 +5,7 @@
 <br></br>
 >## 예제
 >```javascript
->const jsfuck_encoder = require("jsfuck_encoder")
+>const jsfuck_encoder = require("jsfuck_encoder");
 >
 >function response(...){
 >  if(msg.startsWith(";jsfuck ")){
