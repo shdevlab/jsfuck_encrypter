@@ -5,11 +5,11 @@
 <br></br>
 >## 예제
 >```javascript
->const jsfuck_encoder = require("jsfuck_Encrypter");
+>const jsfuck_encrypter = require("jsfuck_encrypter");
 >
 >function response(...){
 >  if(msg.startsWith(";jsfuck ")){
->    replier.reply(jsfuck_encoder(msg.substr(8)))
+>    replier.reply(jsfuck_encrypter(msg.substr(8)))
 >  }
 >}
 >```
