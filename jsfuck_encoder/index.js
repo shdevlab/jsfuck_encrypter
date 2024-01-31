@@ -8,13 +8,7 @@ function replaceWords(words){
 }
 
 module.exports = function(str, isScript){
-    let result;
-    
-    try{
-        result = str.toString()
-    }catch(e){
-        throw new TypeError(str+" can't convert to string.")
-    }
+    let result = String(str)
 
     result = replaceWords(result)
 
