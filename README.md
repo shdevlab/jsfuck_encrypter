@@ -1,11 +1,11 @@
-# JSFuck Encoder Module
+# JSFuck Encrypter Module
 메신저봇 **JSFuck** 암호화 모듈입니다!
 <br></br>
-**사용법**: jsfuck_encoder 폴더를 global_module이나 봇 폴더의 module 폴더 안에 넣기
+**사용법**: jsfuck_Encrypter 폴더를 global_module이나 봇 폴더의 module 폴더 안에 넣기
 <br></br>
 >## 예제
 >```javascript
->const jsfuck_encoder = require("jsfuck_encoder");
+>const jsfuck_encoder = require("jsfuck_Encrypter");
 >
 >function response(...){
 >  if(msg.startsWith(";jsfuck ")){
