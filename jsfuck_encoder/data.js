@@ -1,4 +1,4 @@
-{
+module.exports = {
     "__comment__": "해당 문서의 내용은 https://github.com/aemkei/jsfuck 의 jsfuck.js 일부 부분을 참고하였습니다.",
     
     "defualt": {
@@ -15,7 +15,7 @@
       "Boolean": "(![])",
       "Array": "[]",
       "Function": "[]['find']",
-      "RegExp": "Function('return/'+![]+'/')"
+      "RegExp": "Function('return/'+false+'/')"
     },
   
     "words":{
