@@ -22,7 +22,7 @@ module.exports = function(str, isScript){
         }}).join("");
 
     for(var i in jsfuck_data.constructors) result = result.replace(new RegExp(i, "g"), jsfuck_data.constructors[i]+"['constructor']")
-    result = result.replace(/Function/g, jsfuck_data.constructors.Function)
+    result = result.replace(/Function/g, jsfuck_data.constructors.Function+"['constructor']")
 
     while(result.includes("'")) result = result.split("'").map((e, i)=>{
         if(i%2){
