@@ -1,5 +1,4 @@
 # JSFuck Encrypter Module
-***현재 버그 발견 ㅇㅅㅇ**<br/>
 메신저봇 **JSFuck** 암호화 모듈입니다!
 <br></br>
 **사용법**: jsfuck_Encrypter 폴더를 global_module이나 봇 폴더의 module 폴더 안에 넣기
