@@ -15,7 +15,7 @@ module.exports = {
       "Boolean": "(![])",
       "Array": "[]",
       "Function": "[]['find']",
-      "RegExp": "Function('return/'+false+'/')"
+      "RegExp": "Function('return/'+false+'/')",
       "Object": "[]['entries']()"
     },
   
