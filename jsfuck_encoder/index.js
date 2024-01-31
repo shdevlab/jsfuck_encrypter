@@ -7,10 +7,12 @@ function replaceWords(words){
     }).join("+").replace(/(\d(\+\d)?\+\d)/g, function(x){return x.replace("+", "")});
 }
 
-module.exports = function(str){
-    let result = str;
+module.exports = function(str, isScript){
+    let result = str.toString();
 
     result = replaceWords(result)
+
+    if(isScript) result = "Function("+result+")()"
 
     while(result.includes("'")) result = result.split("'").map((e, i)=>{
         if(i%2){
