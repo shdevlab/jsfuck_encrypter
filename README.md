@@ -19,6 +19,6 @@
 >function(str: string, isScript: boolean): string
 >```
 >**str**: 암호화할 문자열입니다. string 외의 다른 타입이 주어지면 자동으로 string으로 변환합니다.
->**isScript**: true일시 해당 문자열을 실행하는 코드로 만듭니다. 기본값은 false 입니다.
+>**isScript**: true일시 문자열을 실행하는 코드로 만듭니다. 기본값은 false 입니다.
 ><br></br>
 >**반환값**: jsfuck으로 암호화된 문자열을 반환합니다.
