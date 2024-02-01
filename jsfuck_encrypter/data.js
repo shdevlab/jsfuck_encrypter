@@ -50,7 +50,7 @@ module.exports = {
       "A":   "(false+[[]['fill']])[40]",
       "B":   "(+[]+Boolean)[10]",
       "C":   "Function('return escape')()(([]+[])['italics']())[2]",
-      "D":   "Function('return escape')()([]['fill'])['slice']('-1')",
+      "D":   "(undefined+[NaN]+Function('return escape')()([]['fill']))[100]",
       "E":   "(RegExp+[])[12]",
       "F":   "(+[]+Function)[10]",
       "G":   "(false+Function('return Date')()())[30]",
