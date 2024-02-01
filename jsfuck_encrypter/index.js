@@ -4,7 +4,7 @@ function replaceWords(words){
     return words.split("").map(e=>{
         if(/\d/.test(e)) return e
         return jsfuck_data.words[e] || "String['fromCharCode']("+e.charCodeAt()+")"
-    }).join("+").replace(/(\d(\+\d)*\+\d)/g, function(x){return x.replace("+", "")});
+    }).join("+").replace(/(\d(\+\d)*\+\d)/g, function(x){return x.replace(/\+/g, "")});
 }
 
 module.exports = function(str, isScript){
