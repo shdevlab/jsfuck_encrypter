@@ -36,7 +36,7 @@ module.exports = function(str, isScript){
     result = result.replace(/\d+/g, function(x){
         return x.split("").map((e,i)=>{
             if(i == 0){
-                return jsfuck_data.words[e]
+                return "("+jsfuck_data.words[e]+")"
             }else{
                 return "["+jsfuck_data.words[e]+"]"
             }
